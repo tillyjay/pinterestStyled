@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 4 - Myinterest - Moka Pot</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="../CSS/reset.css">
+    <link rel="stylesheet" href="../CSS/style-nav.css">
+    <link rel="stylesheet" href="../CSS/subPagesStyles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=League+Gothic&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <div class="logo-wrapper">
+                <a href="index.html">
+                    <img src="..\Imgs\logo.png" alt="Myinterest logo" class="logo">
+                </a>
+            </div>
+            <a href="javascript:void(0);" class="menu">
+                <i class="fa fa-bars"></i>
+            </a>
+            
+            <div class="nav-collapse">
+                <ul class="nav-list">
+                    <li class="nav-item" id="left">
+                        <a href="#" class="nav-link">Today</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Watch</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Explore</a>
+                    </li>
+                    <li class="nav-item nav-search">
+                        <input type="text" class="text-search">
+                    </li>
+                    <li class="nav-item" id="right">
+                        <a href="#" class="nav-link" id="login">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <main> 
+            <div class="imgInfo">
+                <img src="..\Imgs\mokaPot.png" alt="Moka Pot Coffee" class="mainIMG">
+                <aside class="textBox">
+                 <div class="icons">
+                    <a class="icon" href="..\Imgs\mokaPot.png" download="MokaPot">
+                        <i class="fa-solid fa-circle-down fa-2xl"></i>
+                    </a>
+                    <a class="icon" href="heart.html">
+                        <i class="fa-solid fa-heart fa-2xl"></i>
+                    </a>
+                    <a class="icon" href="index.html">
+                        <i class="fa-solid fa-circle-xmark fa-2xl"></i></i>
+                    </a>
+                 </div>   
+                <h2 id="mokaHeader">One Stop Moka Pot</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum 
+                    dolor sit amet, consectetur adipiscing elit. Pellentesque congue tempus 
+                    nisl at convallis. Aliquam id velit eu diam cursus consectetur.</p>
+                    
+                    <p>Aenean at metus vitae tortor egestas luctus a nisl. Sed sit amet accumsan, 
+                    et aliquam augue. Morbi at massa pellentesque, quam ut, egestas ante.
+                    </p>
+                </aside>
+            </div>
+        </main>
+    </div>
+    
+    <script>
+        const btn = document.querySelector(".menu")
+        const menu = document.querySelector(".nav-collapse")
+
+        btn.addEventListener("click", () => {
+            menu.classList.toggle("nav-show")
+        })
+    </script>
+</body>
+</html>

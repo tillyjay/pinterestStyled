@@ -1,0 +1,157 @@
+
+/* Basic Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* Desktop Styles */
+@media screen and (min-width: 600px) 
+{
+
+    /* Basic Styles */
+    main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    div.imgInfo {
+        flex: 0 1 750px;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: flex-start;
+        position: relative;
+        margin: 30px auto;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+
+    img.mainIMG {
+        width: 45%;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }   
+    
+    aside.textBox {
+        width: 55%;
+        display: flex; 
+        flex-flow: column nowrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+
+    div.icons {
+        display: flex; 
+        flex-flow: row;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 10px 0px 5px 0px;
+        margin-left: 180px;
+
+    }
+
+    .icon {
+        padding: 8px;
+    }
+
+    .heartBtn {
+        border: none;
+        padding: 0;
+        background: none;
+    }
+
+    aside h2 {
+        font-family: 'League Gothic', sans-serif;
+        font-size: 3rem;
+        padding: 25px 10px 15px 20px;
+        margin-left: 5px;
+    }
+
+    aside p {
+        padding: 10px 25px;
+    }
+
+}
+
+
+/* Mobile Styles */
+@media screen and (max-width: 599px) 
+{
+
+    main {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    div.imgInfo {
+        flex: 0 1 200px;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        margin: 30px auto;
+      
+    }
+
+    img.mainIMG {
+        width: 90%;
+        border-radius: 20px;
+        margin-bottom: 1.5rem;
+    }  
+
+    aside.textBox {
+        width: 85%;
+        display: flex; 
+        flex-flow: column nowrap;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 20px;
+        border-radius: 20px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+
+    div.icons {
+        display: flex; 
+        flex-flow: row;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 10px 0px 5px 0px;
+        margin-left: 150px;
+
+    }
+
+    .icon {
+        padding: 5px;
+    }
+
+    aside h2 {
+        font-family: 'League Gothic', sans-serif;
+        font-size: 2.5rem;
+        padding: 30px 30px 10px 5px;
+    }
+
+    aside h2#mokaHeader {
+        margin-left: 0px;
+        margin-right: 40px;
+    }
+
+    aside h2#espressHeader {
+        margin-left: 0px;
+        margin-right: 30px;
+    }
+
+    aside p {
+        padding: 10px;
+    }
+
+}    

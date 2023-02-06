@@ -1,0 +1,109 @@
+<!--
+AWEBD 3100 - Assignment 4 Starter Code  
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="../CSS/reset.css">
+    <link rel="stylesheet" href="../CSS/style-nav.css">
+    <link rel="stylesheet" href="../CSS/mainStyles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=League+Gothic&display=swap" rel="stylesheet">
+    <title>Assignment 4 - Myinterest</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <nav class="navbar">
+            <div class="logo-wrapper">
+                <a href="index.html">
+                    <img src="..\Imgs\logo.png" alt="Myinterest logo" class="logo">
+                </a>
+            </div>
+            <a href="javascript:void(0);" class="menu">
+                <i class="fa fa-bars"></i>
+            </a>
+            
+            <div class="nav-collapse">
+                <ul class="nav-list">
+                    <li class="nav-item" id="left">
+                        <a href="#" class="nav-link">Today</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Watch</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Explore</a>
+                    </li>
+                    <li class="nav-item nav-search">
+                        <input type="text" class="text-search" value="coffee">
+                    </li>
+                    <li class="nav-item" id="right">
+                        <a href="#" class="nav-link" id="login">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <main>
+            <ul class="card-list">
+                <li class="card">
+                    <a href="coldBrew.html" class="card-link">
+                        <img src="..\Imgs\coldBrew.png" alt="Cold Brew Coffee" class="card-img">
+                        <p>COLD BREW</p>
+                    </a>
+                    <div class="overlay">
+                        <p>OPEN <i class="fa-solid fa-circle-right"></i></p>
+                    </div>
+                </li>
+
+                <li class="card">
+                    <a href="mokaPot.html" class="card-link">
+                        <img src="..\Imgs\mokaPot.png" alt="Moka Pot Coffee" class="card-img">
+                        <p>MOKA POT</p>
+                    </a>
+                    <div class="overlay">
+                        <p>OPEN <i class="fa-solid fa-circle-right"></i></p>
+                    </div>
+                </li>
+
+                <li class="card">
+                    <a href="espresso.html" class="card-link">
+                        <img src="..\Imgs\espresso.png" alt="Espresso Coffee"  class="card-img">
+                        <p>ESPRESSO</p>
+                    </a>
+                    <div class="overlay">
+                        <p>OPEN <i class="fa-solid fa-circle-right"></i></p>
+                    </div>
+                </li>
+
+                <li class="card">
+                    <a href="pourOver.html" class="card-link">
+                        <img src="..\Imgs\pourOver.png" alt="Pour Over Coffee"  class="card-img">
+                        <p>POUR OVER</p>
+                    </a>
+                    <div class="overlay">
+                        <p>OPEN <i class="fa-solid fa-circle-right"></i></p>
+                    </div>
+                </li>
+            </ul>
+        </main>
+    </div>
+
+    <script>
+        const btn = document.querySelector(".menu")
+        const menu = document.querySelector(".nav-collapse")
+
+        btn.addEventListener("click", () => {
+            menu.classList.toggle("nav-show")
+        })
+    </script>
+
+</body>
+
+</html>

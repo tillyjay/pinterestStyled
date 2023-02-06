@@ -1,0 +1,153 @@
+
+/* Basic Styles */ 
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1#name {
+    font-size: 3rem;
+    margin: 25px;
+    text-align: center;
+}
+
+p#tagName {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: rgb(119, 119, 119);
+}
+
+div#shareCreate {
+    display: flex; 
+    flex-flow: row wrap;
+    margin: 20px;
+}
+
+p.sC {
+    color: black;
+    background-color: lightgray;
+    font-weight: bold;
+    padding: 15px;
+    margin: 10px; 
+    border-radius: 30px;
+}
+
+h3#saved {
+    margin: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding-bottom: 4px;
+    border-bottom: 3px solid #000;
+    margin-bottom: 20px;
+}
+
+
+/* Desktop Styles */
+@media screen and (min-width: 600px) 
+{
+    a#profile {
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+        color: white;
+        background-color: darkcyan;
+        border-radius: 50%;
+        font-weight: bold;
+        padding: 20px;
+        width: 20px; 
+        height: 20px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+
+    main {
+        margin-top: 70px;
+        display: flex; 
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h1#profileLetter {
+        font-size: 3.5rem;
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+        color: white;
+        background-color: darkcyan;
+        border-radius: 50%;
+        font-weight: bold;
+        padding: 40px;
+        width: 50px; 
+        height: 50px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+
+    aside {
+        display: flex; 
+        flex-direction: row;
+        margin: auto;
+        width: 40%;
+    }
+
+    ul.card-list {
+        display: flex; 
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    li.card {
+        flex: 0 1 200px;
+        margin: 2rem 1.5rem; 
+        position: relative;
+    }
+
+    img.card-img {
+        max-width: 100%;
+        border-radius: 20px;
+    }
+
+}
+
+
+/* Mobile Styles */
+@media screen and (max-width: 599px) 
+{
+
+    a#profile {
+        display: none;
+    }
+
+    main {
+        margin-top: 20px;
+        display: flex; 
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h1#profileLetter {
+        font-size: 3.5rem;
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+        color: white;
+        background-color: darkcyan;
+        border-radius: 50%;
+        font-weight: bold;
+        padding: 40px;
+        width: 50px; 
+        height: 50px;
+        margin-top: 0px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+
+    li.card {
+        flex: 0 1 200px;
+        margin: 1.5rem 1.5rem; 
+        position: relative;
+    }
+
+    #rowOne {
+        margin-bottom: -20px;
+    }
+}
