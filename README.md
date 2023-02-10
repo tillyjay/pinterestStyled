@@ -7,12 +7,15 @@ This site is pure HTML and CSS, with the main focus on the use of CSS cards in v
 It was a lot of fun to replicate the fundamentals of a site and then add my own personal flair. I reall enjoy being given specifications with creative liberties.
 
 Home page
+
 ![coffee1](https://user-images.githubusercontent.com/97525044/218129515-962084dd-c2c8-4a67-84fb-5e9ba5f66ff9.png)
 
 
 Coffee selection
+
 ![coffee2](https://user-images.githubusercontent.com/97525044/218129551-195799e8-3bda-4533-bdc4-57c019c7f6d6.png)
 
 
 User profile 
+
 ![coffee3](https://user-images.githubusercontent.com/97525044/218129689-e3dd4ab3-047e-44c1-b931-592132445df9.png)
