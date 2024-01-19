@@ -1,21 +1,32 @@
-# pinterestStyled
+# Pintrest Styled 
 
-This site imitates the popular Pinterest website with its search bar menu and page full of images that each lead to a topic in more detail. The site even includes a user page, as well as the ability to favourite and download images. The site is desktop and mobile friendly.
+This project imitates the popular Pinterest website, featuring a search bar menu, a page filled with images leading to topics in more detail, a user page, and the ability to favorite and download images. 
 
-This site is pure HTML and CSS, with the main focus on the use of CSS cards in various styles throughout the pages. The homepage also transforms the cards making them clickable links with a hover overlay effect. All positioning was completed using Flexbox.
+## Features 
+- Pinterest-Inspired Design: Styled cards with hover effect linking to card with more details.
+- Search Bar Menu: Explore topics with a user-friendly search bar menu.
+- User Page: Experience a dedicated user page to manage favorites and download
+- Favoriting and Downloading: Interact with the site by favoriting and downloading images.
 
-It was a lot of fun to replicate the fundamentals of a site and then add my own personal flair. I reall enjoy being given specifications with creative liberties.
+## Technologies Used
+- HTML
+- CSS (Flexbox for positioning)
 
-Home page
+## Challenges 
+- Card styling with overlay and transitions that highlighted different information. Allowed me to improve upon more advanced CSS skills.
 
+## Future Improvements
+- Dynamic Content: Introduce dynamic content updates to keep the site fresh and engaging.
+- User Interaction: Expand user interaction features, such as commenting on and sharing images.
+
+
+### Home page
 ![coffee1](https://user-images.githubusercontent.com/97525044/218129515-962084dd-c2c8-4a67-84fb-5e9ba5f66ff9.png)
 
 
-Coffee selection
-
+### Coffee selection
 ![coffee2](https://user-images.githubusercontent.com/97525044/218129551-195799e8-3bda-4533-bdc4-57c019c7f6d6.png)
 
 
-User profile 
-
+### User profile 
 ![coffee3](https://user-images.githubusercontent.com/97525044/218129689-e3dd4ab3-047e-44c1-b931-592132445df9.png)
